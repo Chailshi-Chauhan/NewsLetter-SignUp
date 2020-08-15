@@ -30,10 +30,11 @@ app.post("/",function(req,res){
   };
 
 const jsondata= JSON.stringify(data);
-const url="https://us17.api.mailchimp.com/3.0/lists/4db194732a";
+const url="https://$.api.mailchimp.com/3.0/lists/4db194732a";
 const options= {
   methos: "POST",
-  auth: "chailshi:09a965f41fcce235e34748cc60e2e199-us17"
+  auth: "chailshi:
+  "
 }
 
 const request= https.request(url,options, function(response){
