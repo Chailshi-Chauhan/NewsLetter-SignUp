@@ -64,6 +64,4 @@ app.post("/failure",function(req,res){
 app.listen(process.env.PORT || 3000,function(){
   console.log("server started");
 
-  //09a965f41fcce235e34748cc60e2e199-us17
-  //list id- 4db194732a
 })
